@@ -1,0 +1,92 @@
+# 在Mac下使用Jekyll搭建个人博客
+
+Jekyll是一种本地生成静态页面进而线上发布的博客工具。搭建简单，操作方面。更重要的是jekyll搭建在github服务器上，无需自己购买服务器，并且无限流量。
+
+在Mac下使用jekyll搭建个人博客分为以下几个步骤：
+
+1、下载安装ruby
+
+2、安装gem
+
+3、通过gem安装jekyll
+
+4、在github上创建名为：用户名.github.io的仓库，并创建github pages
+
+5、找到自己喜欢的博客模板，克隆下来，导出原有博客，修改模板
+
+6、开始创建博客，提交到版本库。
+
+推荐使用的MarkDown编辑器：Typora。https://www.jianshu.com/p/5256ecc06eec
+
+详细步骤：
+
+Mac本身自带ruby和gem，但是版本不是最新的，而且路径也不一致。如果直接使用，在安装jekyll的时候会产生各种require和write permission denied的报错信息。因此我们需要重新安装。
+
+1、安装ruby：
+
+安装ruby可以使用brew，也可以使用rvm。brew安装的ruby 其实也会出现上面的问题，所以，我们先安装rvm.
+
+```
+\curl -sSL https://get.rvm.io | bash
+```
+
+以上过程结束之后，安装过程有个warning提示，要求在.bash_profile文件里面添加一行内容，具体内容也有指明。照着做就行了。不然关闭终端窗口再打开，执行rvm会发现不存在rvm命令。如果出现以上问题，但是你并没有看到我说的warning，那么就在／Users/你的用户名/.bash_profile文件里面添加这一行：
+
+```
+source ~/.rvm/scripts/rvm
+```
+
+安装好后，安装最新版ruby.
+
+```
+rvm install 2.3.1
+```
+
+上面的安装过程稍微有点长。
+
+然后，将默认ruby版本改为2.3.1
+
+```
+rvm use 2.3.1
+```
+
+关闭命令行，再重启，执行
+
+```
+ruby -v
+```
+
+会发现版本号变成最新的啦！
+
+2、安装gem和Jekyll
+
+官网教程说要安装rubygem，实际上，系统自带的ruby已经有gem了，而且，rvm安装的版本也有gem.在路径/usr/local/Cellar/ruby/bin下面。但是，如果我们执行
+
+```
+whereis gem
+```
+
+ 发现路径是/usr/bin/gem,意思是说，当前的gem路径是系统默认的gem版本，这个版本用了是会报错的，因为用这个版本安装Jekyll默认安装Jekyll到相同目录下，所以同样会出现permission denied的报错信息。有人说可以用symlink，但是我试过了，即使用了sudo也会是permission denied的报错。我的解决方法是，直接安装Jekyll并同时指定安装路径为/usr/local/Cellar/ruby/bin。
+
+```
+sudo gem install jekyll -n /usr/local/Cellar/ruby/bin
+```
+
+关闭终端窗口再打开，输入jekyll看这个指令是否存在，如果提示不存在，那就再修改.bash_profile文件，把Jekyll的路径写进去。
+
+```
+export PATH=/usr/local/Cellar/ruby/2.3.1/bin:$PATH
+```
+
+再重新打开终端，这时候Jekyll指令应该有了吧。
+
+3、在github上创建一个新的仓库，名为github用户名.github.io然后直接在setting中设置一下github pages。选择一个默认的主题。然后clone到本地。
+
+4、这时候访问用户名.github.io就能看到你的主页了，这就是博客的主页。然后找到一个你喜欢的模板，clone下来，修改模板为你自己的内容，然后将博文放进去，然后提交到版本库中。再去访问主页，就能看到你的博文了。
+
+5、至此，整个博客就搭建完成了。每次写博客的时候要用markdown格式，可以下载一个markdown工具，将生成的文件放进本地仓库再提交就可以了。
+
+是不是很方便呢~
+
+
+
