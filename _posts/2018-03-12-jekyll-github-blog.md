@@ -6,9 +6,7 @@ subtitle:   ""
 date:       2018-03-012 12:00:00
 author:     "Bly"
 header-img: "img/post-bg-android.jpg"
-tags:
 
-    - 博客
 ---
 
 Jekyll是一种本地生成静态页面进而线上发布的博客工具。搭建简单，操作方面。更重要的是jekyll搭建在github服务器上，无需自己购买服务器，并且无限流量。
