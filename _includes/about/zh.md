@@ -1,11 +1,10 @@
-> about页面个人描述，  
-> 第二行。
+> It is better to be clear than to be clever.
 
-Hey，我是包丽颖，多出没于[博客](https://github.blying.io)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带。
+Hey，我是包丽颖，多出没于[博客](https://github.blying.io)、[微博](https://www.weibo.com/5448830568/profile?topnav=1&wvr=6&is_all=1)、[Github](http://github.com/blying)等地带。
 
 职业是Android开发工程师，
 
-一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/blying)、[演说.io](http://https://zhuanlan.zhihu.com/p/21280918)。 
+一些作品和开源软件项目，👉 戳 [Github](http://github.com/blying) 
 
 
 ##### Talks
