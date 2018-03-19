@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: “照片下描述，<br>第二行”
-sidebar-avatar: /img/bly-avatar.JPG     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/bly-home.JPG     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
