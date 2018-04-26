@@ -1,13 +1,13 @@
 > It is better to be clear than to be clever.
 
-Hey，我是包丽颖，多出没于[博客](https://github.blying.io)、[微博](https://www.weibo.com/5448830568/profile?topnav=1&wvr=6&is_all=1)、[Github](http://github.com/blying)等地带。
+Hey，我是包丽颖，这是我的[博客](https://github.blying.io)、[微博](https://www.weibo.com/5448830568/profile?topnav=1&wvr=6&is_all=1)、[Github](http://github.com/blying),欢迎打扰。
 
 职业是Android开发工程师，
 
 一些作品和开源软件项目，👉 戳 [Github](http://github.com/blying) 
 
 
-##### Talks
+##### 奇谈
 
 - [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
 - Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
