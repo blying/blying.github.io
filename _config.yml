@@ -67,7 +67,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings<br>是换行
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: “Keep it simple and stupid"
+sidebar-about-description: “It is better to be clear than to be clever."
 sidebar-avatar: /img/bly-home.JPG     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
