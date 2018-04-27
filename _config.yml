@@ -1,6 +1,6 @@
 # Site settings
 title: Hello World
-SEOTitle: 包丽颖的博客
+SEOTitle: Bly Blog
 header-img: img/home-bg-art.jpg
 email: 1013018006@qq.com
 description: "Every day to be a little better. |  Don’t repeat yourself. "
@@ -12,7 +12,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     u/5448830568/home?leftnav=1
+weibo_username:     5448830568/profile?topnav=1&wvr=6&is_all=1
 #zhihu_username:     blying
 github_username:    blying
 #twitter_username:   blying
